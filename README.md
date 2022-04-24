@@ -1,10 +1,10 @@
-# lorem-vim
+# lipsum-vim
 Get [LoremIpsum](https://www.lipsum.com/) in vim with one command
 
 ## Install the plugin 
 with vim-plug 
 ```vimscript
-Plug 'Tervicke/lorem-vim'
+Plug 'Tervicke/lipsum-vim'
 ```
 and then by doing a ```:PlugInstall```
 
