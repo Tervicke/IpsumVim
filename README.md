@@ -9,7 +9,7 @@ Plug 'Tervicke/lipsum-vim'
 and then by doing a ```:PlugInstall```
 
 ## Use the plugin
-you can insert the lorem ipsum where the current cursor in located by using the Lorem command(you dont need to type the whole , vim autocompletes the command)
+you can insert the lorem ipsum where the current cursor in located by using the Lipsum command(you dont need to type the whole , vim autocompletes the command)
 ```vim-script
 :Lipsum
 ```
