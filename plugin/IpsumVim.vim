@@ -4,7 +4,7 @@ fun! Lorem(count)
 	if a:0 > 0
 		let count = a:count
 	else
-		let count = 30
+		let count = 150
 	endif
 	let words = [
     \ "Lorem", "ipsum", "dolor", "sit", "amet",
