@@ -1,4 +1,4 @@
-# lipsum-vim
+# IpsumVim
 Get [LoremIpsum](https://www.lipsum.com/) in vim with one command
 
 ## Install the plugin 
