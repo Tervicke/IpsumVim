@@ -2,7 +2,12 @@ function! Lorem(...)
     let text = ""
     let rand_index = 0
 
-    let count = empty(a:000) ? 150 : a:1
+    " Get the count from the arguments, or use 150 if not provided
+    let count = a:0 > 0 ? a:1 : 150
+
+    if count < 1
+        let count = 150
+    endif
 
     let words = [
         \ "Lorem", "ipsum", "dolor", "sit", "amet",
@@ -16,8 +21,8 @@ function! Lorem(...)
         let text .= words[rand_index] . " "
     endfor
 
+    echomsg count
     execute "normal! i" . text
 endfunction
 
 command -nargs=? Lipsum call Lorem(<q-args>)
-
