@@ -4,7 +4,7 @@ Get [LoremIpsum](https://www.lipsum.com/) in vim with one command
 ## Install the plugin 
 with vim-plug 
 ```vimscript
-Plug 'Tervicke/lipsum-vim'
+Plug 'Tervicke/IpsumVim/'
 ```
 and then by doing a ```:PlugInstall```
 
